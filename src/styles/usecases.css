@@ -1,0 +1,102 @@
+.usecases-section {
+  background: #0a0a0a;
+  color: white;
+  padding: 100px 80px;
+}
+
+.usecases-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.usecases-header h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.usecases-header p {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.usecases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+
+.usecase-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.usecase-row.reverse {
+  flex-direction: row-reverse;
+}
+
+
+.usecase-image {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.usecase-image img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.usecase-row:hover img {
+  transform: scale(1.05);
+}
+
+
+.usecase-text {
+  flex: 1;
+}
+
+.usecase-text h3 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.usecase-text p {
+  font-size: 17px;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+.usecase-link {
+  font-size: 14px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.usecase-link:hover {
+  opacity: 1;
+}
+
+
+@media (max-width: 900px) {
+  .usecases-section {
+    padding: 60px 24px;
+  }
+
+  .usecase-row,
+  .usecase-row.reverse {
+    flex-direction: column;
+  }
+
+  .usecase-image img {
+    height: 240px;
+  }
+
+  .usecases-header h2 {
+    font-size: 32px;
+  }
+}
