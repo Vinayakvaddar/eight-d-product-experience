@@ -1,16 +1,51 @@
-# React + Vite
+# 8-D Product Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A narrative-driven React.js frontend experience designed to showcase the core offerings of 8-D in a modern, immersive way.
 
-Currently, two official plugins are available:
+Instead of using a traditional grid-based layout, this project presents products as a continuous story using horizontal motion, subtle automation, and clear visual hierarchy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Objective
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Redesign and implement a high-converting, modern UI inspired by https://8-d.ai/, while improving clarity, flow, and engagement.
 
-## Expanding the ESLint configuration
+The focus was on:
+- Storytelling over static layouts
+- Smooth interactions and micro-animations
+- Clean and maintainable React architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Design Philosophy
+
+- **Narrative Flow**: Each product is treated as a chapter in a story.
+- **Horizontal Experience**: Products are explored via a continuous horizontal scroll.
+- **User Control**: Auto-scroll is supported but never forced.
+- **Minimal UI**: No heavy UI libraries, cards, or visual clutter.
+- **Clear Separation**: Products, Use Cases, Benefits, Blogs, and Contact are intentionally separated for UX clarity.
+
+---
+
+##  Key Features
+
+- Infinite horizontal product scroll (360° loop)
+- Auto-scroll with pause on interaction
+- Arrow navigation and progress indicators
+- Section-based navigation (`#products`, `#usecase`, `#benefits`, `#blogs`, `#contact`)
+- Responsive layout for all screen sizes
+- Modular and reusable React components
+
+---
+
+## Tech Stack
+
+- **React.js** (Vite)
+- **Vanilla CSS**
+- **JavaScript (ES6+)**
+- No commercial UI libraries used
+
+---
+
+
+
